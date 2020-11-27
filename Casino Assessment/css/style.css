@@ -1,0 +1,113 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 9)), url("../images/blackjack.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+.layout {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title {
+    padding: 10px;
+    color: white;
+}
+
+.layout .status {
+    background: white;
+    padding: 5px 20px;
+    margin-top: 10px;
+    display: none;
+    border: none;
+    border-radius: 5px;
+    font-family: Gill Sans, serif;
+}
+
+.points {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.player {
+    width: 20%;
+    border-radius: 5px;
+    padding: 10px;
+    display: inline-block;
+    margin: 1%;
+    vertical-align: top;
+    background: #f5f5f5;
+}
+
+.player.active {
+    border: solid 5px #00ff00;
+}
+
+/*
+Cards Remaining Counter
+*/
+.deck {
+    border: dashed;
+    border-radius: 5px;
+    padding: 13px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #ffffff;
+    position: relative;
+    display: inline-block;
+    font-family: Gill Sans, serif;
+    text-shadow: 1px 1px 2px rgba(10, 10, 10, 1);
+}
+
+/*
+Buttons
+*/
+button {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 20px;
+    color: #F6F7EB;
+    position: relative;
+    display: inline-block;
+    font-family: Gill Sans, serif;
+    text-shadow: 1px 1px 2px rgba(10, 10, 10, 1);
+}
+
+button:active {
+    transform: translate(0px, 5px);
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px .5px 0px 0px;
+}
+
+.blue {
+    background-color: #55acee;
+    box-shadow: 0px 5px 0px 0px #3C93D5;
+}
+
+.blue:hover {
+    background-color: #6FC6FF;
+}
+
+.green {
+    background-color: #2ecc71;
+    box-shadow: 0px 5px 0px 0px #15B358;
+}
+
+.green:hover {
+    background-color: #48E68B;
+}
+
+.red {
+    background-color: #e74c3c;
+    box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+.red:hover {
+    background-color: #FF6656;
+}
